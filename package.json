@@ -1,0 +1,29 @@
+{
+  "name": "type-control",
+  "version": "0.1.3",
+  "author": "undlmn",
+  "license": "MIT",
+  "repository": "github:undlmn/type-control",
+  "description": "a utility which allows you to check the types of values at runtime with a TypeScript like+ type syntax",
+  "keywords": [
+    "util",
+    "type",
+    "check",
+    "typechecking",
+    "assert"
+  ],
+  "type": "module",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "parse.js"
+  ],
+  "scripts": {
+    "test": "tap",
+    "repl": "node module-to-repl.js ./index.js",
+    "parse": "node module-to-repl.js ./parse.js"
+  },
+  "devDependencies": {
+    "tap": "^16.3.4"
+  }
+}
